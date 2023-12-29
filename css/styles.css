@@ -4,6 +4,20 @@ body {
   background-color: #ffffff;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* !----------- HEADER --------------*/
+
+.header {
+  display: flex;
+}
+
+.logo-webstudio {
+  margin: 24px 0;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -25,6 +39,14 @@ body {
   text-align: left;
 }
 
+.header-nav {
+  display: flex;
+}
+.header-content-list {
+  display: flex;
+  gap: 40px;
+}
+
 .header-content-link {
   color: #2e2f42;
   font-size: 16px;
@@ -37,6 +59,11 @@ body {
 
 .contacts {
   font-style: normal;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts-list-link {
@@ -65,6 +92,13 @@ body {
   text-decoration: none;
 }
 
+/* ! ----------- HERO -------------- */
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
 .section-hero {
   background-color: #2e2f42;
 }
@@ -90,10 +124,7 @@ body {
   cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
-}
+/* ! ------------- SIDES ------------------- */
 
 .sides-list {
   list-style-type: none;
@@ -115,6 +146,8 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+/* ! ------------- TEAM -------------- */
 
 .section-team {
   background-color: #f4f4fd;
@@ -154,6 +187,8 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* ! ------------- PORTFOLIO ------------- */
+
 .section-portf-text {
   color: #2e2f42;
 
@@ -186,6 +221,8 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+/* ! -------------- FOOTER -------------- */
 
 .footer {
   background-color: #2e2f42;
