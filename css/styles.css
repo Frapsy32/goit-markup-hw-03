@@ -107,7 +107,7 @@ img {
   text-align: left;
 }
 
-.logo-webstudio {
+.header-logo {
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
@@ -142,6 +142,7 @@ img {
   display: flex;
   margin-left: 332px;
   gap: 40px;
+  padding-top: 24px;
 }
 
 .contacts-list-link {
@@ -276,7 +277,7 @@ img {
 
 .role {
   text-align: center;
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 
 .team-name {
@@ -289,10 +290,6 @@ img {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 8px;
-}
-
-.team-image {
-  margin-bottom: 32px;
 }
 
 .section-team-text {
@@ -375,6 +372,7 @@ img {
 .portf-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* ! -------------- FOOTER -------------- */
