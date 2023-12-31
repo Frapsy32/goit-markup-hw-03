@@ -120,10 +120,6 @@ img {
   gap: 40px;
 }
 
-.header-content-item {
-  padding: 24px 0 24px;
-}
-
 .header-content-link {
   color: #2e2f42;
   font-size: 16px;
@@ -132,6 +128,8 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
+  display: block;
+  padding: 24px 0 24px;
 }
 
 .contacts {
